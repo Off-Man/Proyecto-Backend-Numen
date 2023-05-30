@@ -13,9 +13,15 @@ const checks = [
     check("estadio")
         .notEmpty().withMessage("el campo estadio es obligatorio")
         .isString("el campo estadio solo debe contener letras"),
-    check("fundacion")
-        .notEmpty().withMessage("el campo fundación es obligatorio")
-        .isString("el campo fundacion solo debe contener letras"),
+    check("dia_fundacion")
+        .notEmpty().withMessage("el campo dia_fundacion es obligatorio")
+        .isNumeric("el campo dia_fundacion solo debe contener letras"),
+    check("mes_fundacion")
+        .notEmpty().withMessage("el campo mes_fundacion es obligatorio")
+        .isNumeric("el campo mes_fundacion solo debe contener letras"),
+    check("anio_fundacion")
+        .notEmpty().withMessage("el campo anio_fundacion es obligatorio")
+        .isNumeric("el campo anio_fundacion solo debe contener letras"),
     check("titulos")
         .notEmpty().withMessage("el campo titulos es obligatorio")
         .isString("el campo titulos solo debe contener números"),

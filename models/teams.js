@@ -17,12 +17,16 @@ const schema = new Schema({
         type: String,
         require: true
     },
-    fundacion:{
-        type: String,
+    dia_fundacion: {
+        type: Number,
         require: true
     },
-    fundacionMinima:{
-        type: String,
+    mes_fundacion: {
+        type: Number,
+        require: true
+    },
+    anio_fundacion: {
+        type: Number,
         require: true
     },
     titulos: {
