@@ -3,7 +3,7 @@ const router = express.Router();
 const apiController = require("../controllers/apiController")
 const {validarId} = require("../middlewares/validarId")
 const {validarFecha} = require("../middlewares/validarFecha")
-const checks = require("../middlewares/checks")
+const checks = require("../middlewares/checksSchema")
 const {validarChecks} = require("../middlewares/validarChecks")
 
 

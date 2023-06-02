@@ -1,5 +1,5 @@
 const index = (req, res) => {
-    res.send("INDEX PAGE")
+    res.send("Pagina de Inicio")
 }
 
 module.exports = {index}

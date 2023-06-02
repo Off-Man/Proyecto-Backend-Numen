@@ -1,7 +1,7 @@
-    const {Team} = require("../models/teams")
+    const {Equipo} = require("../models/equipos")
     
     const validarId = async (req,res,next) => {
-        const buscarEquipo = await Team.findById(req.params.id)
+        const buscarEquipo = await Equipo.findById(req.params.id)
         if(buscarEquipo !== null){
             next()
     }else {

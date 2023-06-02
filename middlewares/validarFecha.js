@@ -1,5 +1,4 @@
 
-
 function validarFecha(req, res, next) {
 
     const dia_fundacion = req.body.dia_fundacion;

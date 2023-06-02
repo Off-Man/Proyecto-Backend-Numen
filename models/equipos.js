@@ -40,5 +40,5 @@ const schema = new Schema({
 
 })
 
-const Team = model("Team", schema);
-module.exports = {Team}
+const Equipo = model("Equipo", schema);
+module.exports = {Equipo}

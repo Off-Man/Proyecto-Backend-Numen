@@ -24,7 +24,7 @@ const checks = [
         .isNumeric("el campo anio_fundacion solo debe contener letras"),
     check("titulos")
         .notEmpty().withMessage("el campo titulos es obligatorio")
-        .isString("el campo titulos solo debe contener números"),
+        .isString("el campo titulos solo debe contener letras"),
     check("pagina_web")
         .notEmpty().withMessage("el campo pagina_web es obligatorio")
         .isString("el campo pagina_web solo debe contener letras"),
